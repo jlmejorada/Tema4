@@ -8,8 +8,6 @@ public class Ejercicio2 {
 	public static void main(String[] args) {
 		// Creamos un array de 5 de longitud
 		float tabla[] = new float[5];
-		// Inicializamos el número aleatorio
-		Random rn = new Random();
 		//Inicializamos el escaner
 		Scanner sc = new Scanner(System.in);
 
