@@ -23,6 +23,7 @@ public class Ejercicio2 {
 		for (float numero : tabla) {
 			System.out.println(numero);
 		}
+		sc.close();
 
 	}
 
