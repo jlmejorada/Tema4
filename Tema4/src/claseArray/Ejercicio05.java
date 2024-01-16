@@ -21,7 +21,7 @@ public class Ejercicio05 {
 			System.out.println(tabla[i]);
 		}
 
-	
+		sc.close();
 
 	}
 
