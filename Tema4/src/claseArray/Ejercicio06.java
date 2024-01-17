@@ -1,6 +1,5 @@
 package claseArray;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ejercicio06 {
