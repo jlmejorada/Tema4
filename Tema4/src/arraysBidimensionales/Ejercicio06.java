@@ -13,7 +13,7 @@ public class Ejercicio06 {
 		
 		for (int i=0 ; i<tabla.length ; i++) {
 			for (int j=0 ; j<tabla[0].length ; j++) {
-				tabla[i][j]=rand.nextInt(0,1001);
+				tabla[i][j]=rand.nextInt(0,2);
 			}
 		}
 		
