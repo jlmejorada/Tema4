@@ -14,14 +14,23 @@ public class Ejercicio08 {
 				tabla[i][j]=1;
 			}
 		}
+		//tabla[2][3]=5;
 		
 		bandera = esSimetrico(tabla);
-		
+		if (bandera) {
+			System.out.println("Es simetrica");
+		} else System.out.println("No es simetrica");
 	}
 	
 	public static boolean esSimetrico (int[][] tabla) {
-		boolean bandera=false;
-		
+		boolean bandera=true;
+		for (int i=0 ; i<tabla.length ; i++) {
+			for (int j=0 ; j<tabla[0].length ; j++) {
+				if (tabla[i][j]!=tabla[j][j]) {
+					bandera=false;
+				}
+			}
+		}
 		return bandera;
 		
 	}
