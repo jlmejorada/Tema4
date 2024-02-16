@@ -2,7 +2,7 @@ package cadenas;
 
 import java.util.Scanner;
 
-public class Ejercicio10 {
+public class Ejercicio10y11 {
 
 	public static void main(String[] args) {
 		// Variable para controlar como se quiere codificar
