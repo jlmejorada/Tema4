@@ -1,4 +1,4 @@
-package cadenas;
+package cadenas;			//Este ejercicio no funciona profesora
 
 public class Ejercicio20 {
 
@@ -15,7 +15,6 @@ public class Ejercicio20 {
             //Imprimimos 
 			System.out.print("[" + solucion[i] + "]");
         }
-		
 
 	}
 
