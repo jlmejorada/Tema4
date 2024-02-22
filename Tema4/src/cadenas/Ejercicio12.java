@@ -1,40 +1,25 @@
 package cadenas;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class Ejercicio12 {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-
-		String frase = "";
-
-		String[] palabras;
-
+		//Variable que recoge una frase
+		String frase = "Esto ha sido una barrabasada";
+		//Array que guarda las distintas palabras de la frase
+		String[] palabrasFrase;
+		//Variable que guarda la palabra más larga
 		String palabraLarga = "";
+		//Dividimos la frase por palabras en el array
+		palabrasFrase = frase.split(" ");
+		//
+		palabraLarga = palabrasFrase[0];
 
-		char[] letras;
-
-		System.out.println("Introduce una frase");
-		frase = sc.nextLine();
-
-		palabras = frase.split(" ");
-
-		palabraLarga = palabras[0];
-
-		for (int i = 0; i < palabras.length; i++) {
-			if (palabraLarga.length() < palabras[i].length()) {
-				palabraLarga = palabras[i];
+		for (int i = 0; i < palabrasFrase.length; i++) {
+			if (palabraLarga.length() < palabrasFrase[i].length()) {
+				palabraLarga = palabrasFrase[i];
 			}
 		}
-
-		letras = palabraLarga.toCharArray();
-
-		System.out.println(palabraLarga);
-		System.out.println(Arrays.toString(letras));
-
-		sc.close();
+		System.out.println("La palabras más larga es " + palabraLarga + " con " + palabraLarga.length() + " letras");
 
 	}
 
